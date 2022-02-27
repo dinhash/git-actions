@@ -34,7 +34,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          git checkout [main]
-          git commit -m '" + commitMessage + "'"
-          git config --local credential.helper "!p() { echo username=\\$GIT_USERNAME; echo password=\\$GIT_PASSWORD; }; p"
-          git push -u origin $SOURCE_BRANCH
+
